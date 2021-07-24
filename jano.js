@@ -1,6 +1,6 @@
 
 const Discord = require("discord.js");
-const myid = ['id xot'] ////////////////////prefix wara 
+const myid = ['773222510769995806'] ////////////////////prefix #wara 
 const jano = new Discord.Client();
 const jano2 = new Discord.Client();
 const jano3 = new Discord.Client();
@@ -217,7 +217,7 @@ const jano200 = new Discord.Client();
 ////////
 jano.on("message", message => {
   if (!message.guild) return;
-  if (message.content === "wara") {
+  if (message.content === "#wara") {
     if (!(message.author.id)) return;
     if (message.member.voiceChannel) {
       message.member.voiceChannel
@@ -7392,7 +7392,7 @@ jano200.on("ready", () => {
 
 //////////////// tokn lera da bne 
 
-jano.login("");
+jano.login ("ODY2MjM3MjA3MTE0Njc4Mjcy.YPPoRA.F6l-PdY-bmsFJ3M3x78mpBnSWIo");
 jano2.login("");
 jano3.login("");
 jano4.login("");
